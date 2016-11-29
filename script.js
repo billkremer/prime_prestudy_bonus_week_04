@@ -10,7 +10,7 @@ Check all of this in to a repo called "prime_prestudy_bonus_week_04"
 
 var splinter = function (a, b) {
 	var z = a * b;
-	return [a, b, z];
+	return [a, b, z];  // could also write: return [a, b, (a*b)];
 }
 
 console.log(splinter(1,2));
